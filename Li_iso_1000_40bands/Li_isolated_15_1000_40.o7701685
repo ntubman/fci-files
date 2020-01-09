@@ -1,0 +1,31 @@
+Job 7701685.pbspl1.nas.nasa.gov started on Wed Dec 04 00:44:31 PST 2019
+The job requested the following resources:
+    ncpus=28
+    place=scatter:excl
+    walltime=08:00:00
+
+PBS set the following environment variables:
+        FORT_BUFFERED = 1
+                   TZ = PST8PDT
+
+On r1i3n4:
+Warning: no access to tty (Bad file descriptor).
+Thus no job control in this shell.
+Current directory is /nobackup/bgadagun/qc_project/boxsize15/Li_iso_1000_40bands
+
+____________________________________________________________________
+Job Resource Usage Summary for 7701685.pbspl1.nas.nasa.gov
+
+    CPU Time Used            : 02:00:27
+    Real Memory Used         : 9711968kb
+    Walltime Used            : 00:10:07
+    Exit Status              : 0
+
+    Number of CPUs Requested : 28
+    Walltime Requested       : 08:00:00
+
+    Execution Queue          : normal
+    Charged To               : a1485
+
+    Job Stopped              : Wed Dec  4 00:54:40 2019
+____________________________________________________________________

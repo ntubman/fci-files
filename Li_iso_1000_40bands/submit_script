@@ -1,0 +1,16 @@
+#PBS -S /bin/csh
+#PBS -j oe
+#PBS -N Li_isolated_15_1000_40
+#PBS -l walltime=08:00:00
+#PBS -W group_list=a1485
+#PBS -l select=1:ncpus=28:model=bro
+cd $PBS_O_WORKDIR
+
+module load comp-intel
+module load mpi-sgi
+#module load python
+#python cellmin_cubic.py
+mpiexec -n 28 /nobackup/jwmulli1/software/vasp/vasp_binaries/vasp_gam  > log.vasp
+cp INCAR INCAR.initialrun
+sed -i 's/Fast/FCIDUMP/g' INCAR
+mpiexec -n 1 /nobackup/jwmulli1/software/vasp/vasp_binaries/vasp_gam  > log.vasp

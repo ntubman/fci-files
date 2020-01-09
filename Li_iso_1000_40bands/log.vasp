@@ -1,0 +1,48 @@
+ running on    1 total cores
+ distrk:  each k-point on    1 cores,    1 groups
+ distr:  one band on    1 cores,    1 groups
+ using from now: INCAR     
+ vasp.5.4.4.18Apr17-6-g9f103f2a35 (build Oct 30 2017 19:48:53) gamma-only       
+  
+ POSCAR found type information on POSCAR  Li
+ POSCAR found :  1 types and       1 ions
+ scaLAPACK will be used
+
+ ----------------------------------------------------------------------------- 
+|                                                                             |
+|  ADVICE TO THIS USER RUNNING 'VASP/VAMP'   (HEAR YOUR MASTER'S VOICE ...):  |
+|                                                                             |
+|      You have a (more or less) 'small supercell' and for smaller cells      |
+|      it is recommended  to use the reciprocal-space projection scheme!      |
+|      The real space optimization is not  efficient for small cells and it   |
+|      is also less accurate ...                                              |
+|      Therefore set LREAL=.FALSE. in the  INCAR file                         |
+|                                                                             |
+ ----------------------------------------------------------------------------- 
+
+ LDA part: xc-table for Pade appr. of Perdew
+ POSCAR found type information on POSCAR  Li
+ POSCAR found :  1 types and       1 ions
+ found WAVECAR, reading the header
+ POSCAR, INCAR and KPOINTS ok, starting setup
+ FFT: planning ...
+ reading WAVECAR
+ the WAVECAR file was read successfully
+ charge-density read from file: unknown                                 
+ magnetization density read from file 1
+ the WAVEDER file was read successfully
+ invert orbitals
+The allocated processors form a  1x  1 grid.
+Blocking size of <i|G|a> matrices: 50x 40
+Dimension of <i|G|a> matrices: 65999x    40
+ Allocating memory...
+ succeeded
+ 
+ Calculating fourier transformed overlap densities:
+ 
+NQ=   1    0.0000    0.0000    0.0000   1, 
+ 
+NQ=   1    0.0000    0.0000    0.0000   2, 
+ 
+ 
+ Writing to FCIDUMP file.
